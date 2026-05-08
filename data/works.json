@@ -1,0 +1,596 @@
+{
+  "studio": {
+    "name": "Reno",
+    "atelier": {
+      "en": "Qualis Eram",
+      "he": "Qualis Eram",
+      "la": "Qualis Eram"
+    },
+    "tagline": {
+      "en": "Furniture, made one at a time.",
+      "he": "רהיטים, אחד בכל פעם.",
+      "la": "Opera, singula in tempore."
+    },
+    "about": {
+      "en": "Reno builds furniture in a small workshop, one piece at a time. Walnut, cherry, ash, sometimes salvaged. Most begin as a sketch on the workshop wall — a shape that won't leave him alone. Others are made for a particular room, for a person who came by with measurements and a question. Both kinds are welcome here.",
+      "he": "רנו מייצר רהיטים בסדנה קטנה, חלק אחד בכל פעם. אגוז, דובדבן, אפר, לפעמים עץ ממוחזר. רובם מתחילים כסקיצה על קיר הסדנה — צורה שלא נותנת לו מנוח. אחרים נבנים לחדר מסוים, עבור אדם שהגיע עם מידות ושאלה. שני הסוגים מתקבלים כאן בברכה.",
+      "la": "Reno opera fabricat in officina parva, singula in tempore. Iuglans, cerasum, fraxinus, interdum lignum recuperatum. Pleraque ab adumbratione in pariete oriuntur — figura quae quietem non dat. Alia loco certo fiunt, ad mensuram, ad rogationem. Utrumque genus hic gratum est."
+    },
+    "labels": {
+      "studio": {
+        "en": "studio",
+        "he": "סטודיו",
+        "la": "ex officina"
+      },
+      "commissioned": {
+        "en": "commissioned",
+        "he": "הזמנה",
+        "la": "ad mandatum"
+      }
+    }
+  },
+  "works": [
+    {
+      "id": "01-walnut-chest",
+      "ordinal": 1,
+      "year": 2017,
+      "month": 10,
+      "type": "studio",
+      "folder": "01_2017-10_Walnut-Chest-of-Drawers",
+      "primaryImageIndex": 0,
+      "images": [
+        "20171030_203341.jpg",
+        "20171030_203405.jpg",
+        "20171030_203632.jpg"
+      ],
+      "name": {
+        "en": "Walnut Chest",
+        "he": "שידת אגוז",
+        "la": "Arca Iuglandis"
+      },
+      "material": {
+        "en": "Figured walnut, ebonized pulls",
+        "he": "אגוז מבוקע, ידיות שחורות",
+        "la": "Iuglans figurata, ansae nigratae"
+      },
+      "description": {
+        "en": "Five drawers in figured walnut. The fronts run continuous across the case — a single grain match cut and stacked. Pulls were carved from scrap of the same board and ebonized.",
+        "he": "חמש מגירות מאגוז מבוקע. החזיתות רצופות לרוחב הארון — התאמת סיב אחת שנחתכה ונערמה. הידיות נגלפו משאריות אותו לוח והושחרו.",
+        "la": "Arca cum quinque scriniis ex iuglande figurata. Frontes per omne corpus serie continua dispositae. Ansae ex eadem tabula sculptae et nigratae."
+      },
+      "techniques": ["bookmatched", "carved-pulls", "casework"]
+    },
+    {
+      "id": "02-booth-tables",
+      "ordinal": 2,
+      "year": 2018,
+      "month": 2,
+      "type": "commissioned",
+      "folder": "02_2018-02_Restaurant-Booth-Parquet-Tables",
+      "primaryImageIndex": 0,
+      "images": [
+        "20180203_175555.jpg",
+        "20180203_175606.jpg",
+        "20180203_175632.jpg"
+      ],
+      "name": {
+        "en": "Booth Tables",
+        "he": "שולחנות מסעדה",
+        "la": "Mensae Tabernae"
+      },
+      "material": {
+        "en": "Mixed hardwoods on plywood substrate",
+        "he": "עצי קשה מעורבים על תשתית עץ לבוד",
+        "la": "Ligna varia super tabulato"
+      },
+      "description": {
+        "en": "A run of octagonal tabletops set along a velvet booth. Each diamond is cut from a single grain match — small enough that the eye stops counting and starts trusting the pattern.",
+        "he": "סדרת משטחי שולחן מתומנים לאורך ספת קטיפה. כל יהלום נחתך מהתאמת סיב אחת — קטן מספיק כדי שהעין תפסיק לספור ותתחיל לסמוך על הדוגמה.",
+        "la": "Mensarum series octagona apud sedem velutinam. Singuli rhombi ex unica venarum compage."
+      },
+      "techniques": ["parquetry", "geometric-inlay", "series"]
+    },
+    {
+      "id": "03-library-desk",
+      "ordinal": 3,
+      "year": 2018,
+      "month": 7,
+      "type": "commissioned",
+      "folder": "03_2018_Library-Parquet-Bookcase-Desk",
+      "primaryImageIndex": 4,
+      "images": [
+        "20180710_163458.jpg",
+        "20180710_183819.jpg",
+        "20180710_184402.jpg",
+        "20180801_144048.jpg",
+        "20180801_144105.jpg",
+        "20200802_101138.jpg",
+        "20200802_101336.jpg"
+      ],
+      "name": {
+        "en": "Library Desk",
+        "he": "שולחן ספרייה",
+        "la": "Mensa Bibliothecae"
+      },
+      "material": {
+        "en": "Cherry case, parquet top in walnut, cherry, and figured maple",
+        "he": "מסגרת דובדבן, משטח פרקט באגוז, דובדבן ואדר מבוקע",
+        "la": "Cerasum, lacunaria ex iuglande, ceraso, acere figurato"
+      },
+      "description": {
+        "en": "A working surface fitted into a researcher's library. The top is parquet — three woods, one star — set into a cherry case with reference shelves at the knee.",
+        "he": "משטח עבודה שהותאם לספריית חוקר. הראש פרקט — שלושה עצים, כוכב אחד — משובץ במסגרת דובדבן עם מדפי עיון בגובה הברך.",
+        "la": "Mensa scriptoria in bibliotheca. Tabula lacunaria ex tribus lignis, in capsa cerasi cum pluteis ad genua."
+      },
+      "techniques": ["parquetry", "casework", "shelving"]
+    },
+    {
+      "id": "04-ash-bench",
+      "ordinal": 4,
+      "year": 2019,
+      "month": 4,
+      "type": "studio",
+      "folder": "04_2019-04_Live-Edge-Coffee-Table",
+      "primaryImageIndex": 4,
+      "images": [
+        "20190407_154723.jpg",
+        "20190407_154840.jpg",
+        "20190407_161454.jpg",
+        "20190407_161647(0).jpg",
+        "20190407_162038.jpg"
+      ],
+      "name": {
+        "en": "Ash Bench Table",
+        "he": "שולחן אפר נמוך",
+        "la": "Scamnum Fraxineum"
+      },
+      "material": {
+        "en": "Solid ash slab, turned legs",
+        "he": "לוח אפר מלא, רגליים מחוסרות",
+        "la": "Tabula fraxinea solida, pedes torno facti"
+      },
+      "description": {
+        "en": "A low slab on four turned legs. Ash, finished with oil only — left to keep moving with the room.",
+        "he": "לוח נמוך על ארבע רגליים מחוסרות. אפר, גימור שמן בלבד — נשאר נושם עם החדר.",
+        "la": "Tabula humilis super quattuor pedes tornatos. Fraxinus, oleo tantum uncta."
+      },
+      "techniques": ["solid-slab", "turned-legs"]
+    },
+    {
+      "id": "05-butterfly-table",
+      "ordinal": 5,
+      "year": 2019,
+      "month": 4,
+      "type": "commissioned",
+      "folder": "05_2019_Live-Edge-Butterfly-Dining-Table",
+      "primaryImageIndex": 3,
+      "images": [
+        "20190429_104351.jpg",
+        "20190429_104748.jpg",
+        "20190429_105004.jpg",
+        "20190717_140142.jpg"
+      ],
+      "name": {
+        "en": "Butterfly Dining Table",
+        "he": "שולחן אוכל פרפרים",
+        "la": "Mensa cum Papilionibus"
+      },
+      "material": {
+        "en": "Live-edge elm, rosewood butterfly inlays",
+        "he": "בוקיצה בקצה חי, פרפרי שיבוץ באבוני",
+        "la": "Ulmus margine vivo, papiliones ex ligno nobili insiti"
+      },
+      "description": {
+        "en": "A long elm slab with a fissure running its length. Eight rosewood butterflies hold it together — both physically, and as the only thing the slab needed.",
+        "he": "לוח בוקיצה ארוך עם סדק לכל אורכו. שמונה פרפרי אבוני מחזיקים אותו יחד — פיזית, וכדבר היחיד שדרש להוסיף.",
+        "la": "Ulmi tabula longa cum rima per longitudinem. Octo papiliones ex ligno nobili insiti."
+      },
+      "techniques": ["live-edge", "butterfly-inlay"]
+    },
+    {
+      "id": "06-arched-cabinet",
+      "ordinal": 6,
+      "year": 2019,
+      "month": 7,
+      "type": "studio",
+      "folder": "06_2019-07_Rosewood-Arched-Door-Cabinet",
+      "primaryImageIndex": 0,
+      "images": [
+        "20190720_180725.jpg",
+        "20190720_180734.jpg",
+        "20190720_180914.jpg",
+        "20190720_182605.jpg"
+      ],
+      "name": {
+        "en": "Arched Cabinet",
+        "he": "ארון מקושת",
+        "la": "Armarium Arcuatum"
+      },
+      "material": {
+        "en": "Bocote and rosewood, raised arch panels",
+        "he": "בוקוטה ואבוני, פנלים מקושתים מורמים",
+        "la": "Bocote et lignum nobile, panni arcuati"
+      },
+      "description": {
+        "en": "A small cabinet with a tall arched door. The figure in the panel was selected first; the rest of the case was built to frame it.",
+        "he": "ארון קטן עם דלת מקושתת גבוהה. התבנית בפנל נבחרה ראשונה; שאר המסגרת נבנתה למסגר אותה.",
+        "la": "Armarium parvum cum ianua alta arcuata. Figura panni primum electa, capsa post addita."
+      },
+      "techniques": ["raised-panel", "arched-door", "exotic-wood"]
+    },
+    {
+      "id": "07-sliding-console",
+      "ordinal": 7,
+      "year": 2019,
+      "month": 10,
+      "type": "commissioned",
+      "folder": "07_2019-10_Black-Sliding-Door-Console",
+      "primaryImageIndex": 1,
+      "images": [
+        "20191002_071656.jpg",
+        "20191004_111449.jpg"
+      ],
+      "name": {
+        "en": "Sliding Console",
+        "he": "שולחן צד מחליק",
+        "la": "Abacus Mobilis"
+      },
+      "material": {
+        "en": "Ash frame, painted MDF sliding panels",
+        "he": "מסגרת אפר, פנלים נגררים מ-MDF צבוע",
+        "la": "Capsa fraxinea, ianuae mobiles tinctae"
+      },
+      "description": {
+        "en": "Low entryway console with two sliding panels. The panels weight the piece visually; the open middle bay catches the keys.",
+        "he": "שולחן צד נמוך לכניסה עם שני פנלים נגררים. הפנלים מאזנים את המבנה ויזואלית; התא הפתוח באמצע אוסף את המפתחות.",
+        "la": "Abacus humilis cum duabus ianuis mobilibus. Cella media patens claves capit."
+      },
+      "techniques": ["sliding-doors", "frame-and-panel", "painted-finish"]
+    },
+    {
+      "id": "08-curved-leg-coffee",
+      "ordinal": 8,
+      "year": 2020,
+      "month": 1,
+      "type": "commissioned",
+      "folder": "08_2020-01_Walnut-Curved-Leg-Coffee-Table",
+      "primaryImageIndex": 0,
+      "images": [
+        "20200107_101259.jpg",
+        "20200108_120005.jpg"
+      ],
+      "name": {
+        "en": "Curved-Leg Coffee Table",
+        "he": "שולחן סלון רגליים מעוקלות",
+        "la": "Mensa Pedibus Curvatis"
+      },
+      "material": {
+        "en": "Solid walnut, sculpted splayed legs",
+        "he": "אגוז מלא, רגליים מגולפות פסוקות",
+        "la": "Iuglans solida, pedes sculpti divaricati"
+      },
+      "description": {
+        "en": "Walnut top above a lower shelf, four splayed legs sculpted from the same board. The curve at the foot was the last thing decided.",
+        "he": "משטח אגוז מעל מדף תחתון, ארבע רגליים פסוקות מאותו לוח. העקומה בכף הרגל הייתה הדבר האחרון שנקבע.",
+        "la": "Tabula iuglandea super pluteum, quattuor pedes ex eadem tabula sculpti."
+      },
+      "techniques": ["sculpted-legs", "shelf-table"]
+    },
+    {
+      "id": "09-storage-tower",
+      "ordinal": 9,
+      "year": 2020,
+      "month": 5,
+      "type": "studio",
+      "folder": "09_2020-05_Tall-Storage-Tower",
+      "primaryImageIndex": 1,
+      "images": [
+        "20200520_193234.jpg",
+        "20200520_193252.jpg",
+        "20200520_193302.jpg",
+        "20200520_193311.jpg"
+      ],
+      "name": {
+        "en": "Storage Tower",
+        "he": "מגדל אחסון",
+        "la": "Turris Reposita"
+      },
+      "material": {
+        "en": "Reclaimed pine, dark stain",
+        "he": "אורן ממוחזר, גוון כהה",
+        "la": "Pinus recuperata, tinctura obscura"
+      },
+      "description": {
+        "en": "Eight shallow shelves stacked the height of a doorway. Reclaimed pine, kept rough on the inside, stained dark on the case.",
+        "he": "שמונה מדפים רדודים בגובה משקוף. אורן ממוחזר, נשאר גס מבפנים, צבוע כהה מבחוץ.",
+        "la": "Octo pluteorum series in altitudinem ostii. Pinus recuperata, intus rudis, foris obscura."
+      },
+      "techniques": ["reclaimed-wood", "tall-storage"]
+    },
+    {
+      "id": "10-curved-seam-round",
+      "ordinal": 10,
+      "year": 2020,
+      "month": 6,
+      "type": "commissioned",
+      "folder": "10_2020-06_Round-Dining-Table-Curved-Leaf",
+      "primaryImageIndex": 0,
+      "images": [
+        "20200622_145945.jpg",
+        "20200622_145954.jpg",
+        "20200622_151956.jpg",
+        "20200622_152017.jpg",
+        "20200622_152052.jpg"
+      ],
+      "name": {
+        "en": "Curved-Seam Round Table",
+        "he": "שולחן עגול עם תפר מעוקל",
+        "la": "Mensa Rotunda"
+      },
+      "material": {
+        "en": "Walnut, curved-seam expansion leaf",
+        "he": "אגוז, לוח הרחבה עם תפר מעוקל",
+        "la": "Iuglans, tabula adventicia margine curvata"
+      },
+      "description": {
+        "en": "Round walnut top that opens with a curved leaf rather than a straight one — the seam draws an S across the table, hidden in the grain unless you look.",
+        "he": "משטח אגוז עגול שנפתח עם תוספת מעוקלת ולא ישרה — התפר משרטט S על השולחן, מוסתר בסיב אלא אם מסתכלים.",
+        "la": "Tabula iuglandea rotunda, tabula adventicia margine curvato."
+      },
+      "techniques": ["expansion-table", "curved-seam", "round-top"]
+    },
+    {
+      "id": "11-walnut-console",
+      "ordinal": 11,
+      "year": 2020,
+      "month": 8,
+      "type": "studio",
+      "folder": "11_2020-08_Walnut-Live-Edge-Console",
+      "primaryImageIndex": 0,
+      "images": [
+        "20200802_100846.jpg",
+        "20200802_100934.jpg"
+      ],
+      "name": {
+        "en": "Walnut Live-Edge Console",
+        "he": "שולחן צד אגוז קצה חי",
+        "la": "Abacus Iuglandeus"
+      },
+      "material": {
+        "en": "Black walnut slab, butterfly inlays, walnut trestle",
+        "he": "לוח אגוז שחור, פרפרי שיבוץ, רגלי אגוז",
+        "la": "Iuglans nigra, papiliones insiti, basis iuglandea"
+      },
+      "description": {
+        "en": "A narrow live-edge slab on a trestle base, three rosewood butterflies along the central fissure. Built for a wall behind a sofa.",
+        "he": "לוח צר עם קצה חי על בסיס דמוי טרסטל, שלושה פרפרי אבוני לאורך הסדק המרכזי. נבנה לקיר שמאחורי ספה.",
+        "la": "Tabula angusta margine vivo super basim, tres papiliones in rima."
+      },
+      "techniques": ["live-edge", "butterfly-inlay", "trestle-base"]
+    },
+    {
+      "id": "12-painted-chest",
+      "ordinal": 12,
+      "year": 2020,
+      "month": 10,
+      "type": "studio",
+      "folder": "12_2020-10_White-Painted-Chest-Pine-Top",
+      "primaryImageIndex": 1,
+      "images": [
+        "20201008_203808.jpg",
+        "20201010_170510.jpg",
+        "20201010_203925.jpg"
+      ],
+      "name": {
+        "en": "Painted Chest",
+        "he": "שידה צבועה",
+        "la": "Arca Picta"
+      },
+      "material": {
+        "en": "Pine, milk paint, oiled top",
+        "he": "אורן, צבע חלב, ראש משוף בשמן",
+        "la": "Pinus, color lacteus, summa unctata"
+      },
+      "description": {
+        "en": "A blanket chest with a heavy raised-panel base and a top left as wood. Milk paint takes a beating gracefully — that is mostly the point.",
+        "he": "תיבת שמיכות עם בסיס פנל מורם וראש שנשאר עץ חשוף. צבע חלב סופג שריטות בחן — וזה בעיקר העניין.",
+        "la": "Arca cum basi pannis arcuatis, summa nuda. Color lacteus tempori cedit decore."
+      },
+      "techniques": ["raised-panel", "milk-paint", "blanket-chest"]
+    },
+    {
+      "id": "13-spiral-lectern",
+      "ordinal": 13,
+      "year": 2022,
+      "month": 7,
+      "type": "commissioned",
+      "folder": "13_2022-07_Spiral-Pedestal-Lectern",
+      "primaryImageIndex": 0,
+      "images": [
+        "20220705_112047.jpg",
+        "20220705_112203.jpg",
+        "20220705_123345.jpg"
+      ],
+      "name": {
+        "en": "Spiral Lectern",
+        "he": "דוכן ספירלי",
+        "la": "Pulpitum Tortile"
+      },
+      "material": {
+        "en": "Cherry pedestal, twisted column, walnut book rest",
+        "he": "עמוד דובדבן מפותל, מנוחת ספר באגוז",
+        "la": "Pulpitum cerasi, columna torta, fulcrum iuglandeum"
+      },
+      "description": {
+        "en": "A reading stand for a library. The column was turned and then carved by hand into a four-start spiral; everything else is in service of holding it up.",
+        "he": "דוכן קריאה לספרייה. העמוד חוסר ואז נגלף ביד לספירלה ארבעה-תחילים; כל היתר משרת אותו.",
+        "la": "Pulpitum lectoris in bibliotheca. Columna torno facta deinde manu sculpta in spiram quadripartitam."
+      },
+      "techniques": ["turning", "hand-carving", "spiral"]
+    },
+    {
+      "id": "14-library-hutch",
+      "ordinal": 14,
+      "year": 2022,
+      "month": 8,
+      "type": "commissioned",
+      "folder": "14_2022-08_Cherry-Library-Hutch",
+      "primaryImageIndex": 5,
+      "images": [
+        "20220813_115201.jpg",
+        "20220813_120214.jpg",
+        "20220813_120629.jpg",
+        "20220813_122044.jpg",
+        "20220814_112933.jpg",
+        "20220815_163311.jpg"
+      ],
+      "name": {
+        "en": "Library Hutch",
+        "he": "מזנון ספרייה",
+        "la": "Armarium Bibliothecae"
+      },
+      "material": {
+        "en": "Cherry, raised panels, open upper, closed lower",
+        "he": "דובדבן, פנלים מורמים, חלק עליון פתוח, תחתון סגור",
+        "la": "Cerasum, panni arcuati, supra apertum, infra clausum"
+      },
+      "description": {
+        "en": "Tall hutch made in two pieces — open shelving above for books on display, drawers and a cabinet below for everything else. Lives next to the lectern.",
+        "he": "מזנון גבוה בשני חלקים — מדפים פתוחים מעל לספרים בתצוגה, מגירות וארון מתחת לכל היתר. עומד ליד הדוכן.",
+        "la": "Armarium altum in duas partes divisum — supra plutei aperti, infra scrinia et armariolum."
+      },
+      "techniques": ["raised-panel", "two-piece-case", "library-furniture"]
+    },
+    {
+      "id": "15-drawer-box",
+      "ordinal": 15,
+      "year": 2023,
+      "month": 6,
+      "type": "studio",
+      "folder": "15_2023-06_Figured-Wood-Drawer-Box",
+      "primaryImageIndex": 0,
+      "images": [
+        "20230610_114832.jpg",
+        "20230610_165049.jpg",
+        "20230610_165201.jpg"
+      ],
+      "name": {
+        "en": "Drawer Box",
+        "he": "תיבת מגירות",
+        "la": "Cista Scriniorum"
+      },
+      "material": {
+        "en": "Quilted bubinga, walnut interior",
+        "he": "בובינגה מבוקע, פנים אגוז",
+        "la": "Bubinga figurata, intus iuglans"
+      },
+      "description": {
+        "en": "A small box: three open trays above, two drawers below. The figure in the bubinga makes anything you put inside look careless. That is its job.",
+        "he": "תיבה קטנה: שלושה מגשים פתוחים מעל, שתי מגירות מתחת. הסיב המבוקע בבובינגה גורם לכל מה שתשים בפנים להיראות רשלני. זה התפקיד שלו.",
+        "la": "Cista parva: tres lances apertae supra, duo scrinia infra."
+      },
+      "techniques": ["small-box", "exotic-wood", "joinery"]
+    },
+    {
+      "id": "16-cherry-wardrobe",
+      "ordinal": 16,
+      "year": 2025,
+      "month": 1,
+      "type": "commissioned",
+      "folder": "16_2025-01_Cherry-Wardrobe",
+      "primaryImageIndex": 0,
+      "images": [
+        "20250110_202303.jpg",
+        "20250110_202333.jpg",
+        "20250110_203634.jpg",
+        "20250110_203705.jpg",
+        "20250110_230647.jpg",
+        "20250110_230811.jpg"
+      ],
+      "name": {
+        "en": "Cherry Wardrobe",
+        "he": "ארון בגדים דובדבן",
+        "la": "Vestiarium Cerasi"
+      },
+      "material": {
+        "en": "Cherry throughout, raised panels, hand pulls",
+        "he": "דובדבן לכל המבנה, פנלים מורמים, ידיות יד",
+        "la": "Totum ex ceraso, panni arcuati"
+      },
+      "description": {
+        "en": "Wardrobe with hanging space above, eight drawers below. Built around a closet-less room — the proportions are the room's, not a furniture catalog's.",
+        "he": "ארון בגדים עם מקום תליה מעל, שמונה מגירות מתחת. נבנה לחדר ללא ארון קיר — הפרופורציות הן של החדר, לא של קטלוג רהיטים.",
+        "la": "Vestiarium cum loco pendendi supra, octo scriniis infra."
+      },
+      "techniques": ["raised-panel", "hanging-storage", "drawer-bank"]
+    },
+    {
+      "id": "17-lacewood-builtin",
+      "ordinal": 17,
+      "year": 2026,
+      "month": 4,
+      "type": "commissioned",
+      "folder": "17_2026-04_Lacewood-Library-Built-In",
+      "primaryImageIndex": 8,
+      "images": [
+        "20260413_093855.jpg",
+        "20260413_093959.jpg",
+        "20260413_094021.jpg",
+        "20260413_094029.jpg",
+        "20260413_094044.jpg",
+        "20260413_094115.jpg",
+        "20260413_094732(0).jpg",
+        "20260413_094747.jpg",
+        "20260416_150225.jpg",
+        "20260416_150230.jpg",
+        "20260416_160311.jpg"
+      ],
+      "name": {
+        "en": "Lacewood Built-In",
+        "he": "מובנה עץ תחרה",
+        "la": "Armarium Insertum"
+      },
+      "material": {
+        "en": "Lacewood, raised panels, fitted to a wall of windows",
+        "he": "עץ תחרה, פנלים מורמים, מותאם לקיר חלונות",
+        "la": "Lignum reticulatum, panni arcuati"
+      },
+      "description": {
+        "en": "A long built-in run beneath a wall of windows. Lacewood for the panels — the silver ray fleck reads like fish scales when the light is right.",
+        "he": "מובנה ארוך מתחת לקיר חלונות. עץ תחרה לפנלים — הנקוד המוכסף נקרא כמו קשקשי דג כשהאור נכון.",
+        "la": "Series longa sub fenestris. Lignum reticulatum in pannis — squamis simile cum lux congruit."
+      },
+      "techniques": ["built-in", "raised-panel", "long-case", "exotic-wood"]
+    },
+    {
+      "id": "18-living-room-cabinet",
+      "ordinal": 18,
+      "year": null,
+      "month": null,
+      "type": "commissioned",
+      "folder": "18_Living-Room-Cabinet",
+      "primaryImageIndex": 0,
+      "images": [
+        "Living Room Cabinet - Front view, closed door.jpg",
+        "Living Room Cabinet - Open doors.jpg",
+        "Living Room Cabinet - Side View.jpg"
+      ],
+      "name": {
+        "en": "Living Room Cabinet",
+        "he": "ארון סלון",
+        "la": "Armarium Triclinii"
+      },
+      "material": {
+        "en": "Stained hardwood, glass uppers, herringbone install",
+        "he": "עץ קשה צבוע, זכוכית למעלה, התקנה מעל פרקט אבן דג",
+        "la": "Lignum tinctum, ianuae vitreae"
+      },
+      "description": {
+        "en": "Wall-spanning cabinet with glass uppers, panel lowers, and a center bay for a television that hides when the doors are closed. Sits on a herringbone floor in a city apartment.",
+        "he": "ארון לרוחב הקיר עם זכוכית למעלה, פנלים למטה, ותא מרכזי לטלוויזיה שמסתתרת כשהדלתות סגורות. עומד על רצפת פרקט אבן דג בדירה עירונית.",
+        "la": "Armarium per parietem extensum cum vitris supra, pannis infra. In medio cella televisorio occulendo."
+      },
+      "techniques": ["glass-doors", "media-cabinet", "wall-spanning"]
+    }
+  ]
+}

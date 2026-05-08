@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f4ec;
+  --color-paper-soft: #efeae0;
+  --color-ink: #1a1714;
+  --color-ink-soft: #4a4540;
+  --color-muted: #7e7670;
+  --color-rule: #d8cfbf;
+  --color-umber: #553c25;
+  --color-umber-soft: #8c6a48;
+
+  --font-display: var(--font-cormorant), "EB Garamond", "Frank Ruhl Libre", Georgia, serif;
+  --font-body: var(--font-inter), "Frank Ruhl Libre", system-ui, -apple-system, sans-serif;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  color-scheme: light;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html[data-locale="he"] {
+  --font-display: var(--font-frank), var(--font-cormorant), Georgia, serif;
+}
+
+body {
+  font-family: var(--font-body);
+  font-feature-settings: "ss01", "kern";
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover .hover-underline,
+  button:hover .hover-underline {
+    text-decoration-color: currentColor;
+  }
+}
+
+button:active,
+[role="button"]:active {
+  transform: scale(0.97);
+}
+
+button,
+[role="button"] {
+  transition: transform 160ms var(--ease-out);
+}
+
+@keyframes stagger-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-item {
+  opacity: 0;
+  animation: stagger-rise 480ms var(--ease-out) forwards;
+}
+
+@keyframes lightbox-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lightbox-content-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.lightbox-overlay {
+  animation: lightbox-in 200ms var(--ease-out) forwards;
+}
+
+.lightbox-content {
+  animation: lightbox-content-in 240ms var(--ease-out) forwards;
+}
+
+.work-card-image {
+  transition: transform 600ms var(--ease-out), filter 400ms var(--ease-out);
+  will-change: transform;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .work-card:hover .work-card-image {
+    transform: scale(1.02);
+  }
+}
+
+.lang-switcher button {
+  transition: color 200ms var(--ease-out), opacity 200ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .stagger-item {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Hebrew runs in RTL — these utilities flip side-aware spacing */
+[dir="rtl"] .flip-rtl {
+  transform: scaleX(-1);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Carousel slide track */
+.carousel-track {
+  transition: transform 360ms var(--ease-in-out);
+}
+
+[dir="rtl"] .carousel-track {
+  /* Slides translate the same way visually whether LTR or RTL */
+}
+
+/* Hide scrollbar on tag row */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Lightbox image zoomed */
+.zoomed {
+  cursor: zoom-out;
+}
+.unzoomed {
+  cursor: zoom-in;
+}
