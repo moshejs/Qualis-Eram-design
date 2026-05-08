@@ -88,6 +88,26 @@ export const UI_STRINGS = {
   zoom: { en: 'Zoom', he: 'הגדל', la: 'Auge' },
   material: { en: 'Material', he: 'חומר', la: 'Materia' },
   year: { en: 'Year', he: 'שנה', la: 'Annus' },
+  selectedWorks: {
+    en: 'Selected works below',
+    he: 'מבחר עבודות',
+    la: 'Opera selecta',
+  },
+  atTheBench: {
+    en: 'At the bench',
+    he: 'בסדנה',
+    la: 'Ad Bancum',
+  },
+  inAcademia: {
+    en: 'In academia',
+    he: 'באקדמיה',
+    la: 'In Academia',
+  },
+  education: {
+    en: 'Education',
+    he: 'השכלה',
+    la: 'Studia',
+  },
   imageOf: {
     en: (i: number, total: number) => `${i} / ${total}`,
     he: (i: number, total: number) => `${i} / ${total}`,

@@ -21,7 +21,9 @@ export type Work = {
 
 export type Studio = {
   name: string;
-  atelier: LocalizedString;
+  shortName: string;
+  established: number;
+  motto: LocalizedString;
   tagline: LocalizedString;
   about: LocalizedString;
   labels: {

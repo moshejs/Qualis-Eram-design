@@ -1,14 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #f7f4ec;
-  --color-paper-soft: #efeae0;
-  --color-ink: #1a1714;
-  --color-ink-soft: #4a4540;
-  --color-muted: #7e7670;
-  --color-rule: #d8cfbf;
-  --color-umber: #553c25;
-  --color-umber-soft: #8c6a48;
+  /* Warmer, deeper palette — workshop vibe */
+  --color-paper: #f4efe3;
+  --color-paper-soft: #e9e2d1;
+  --color-paper-deep: #ddd2bb;
+  --color-ink: #1c1612;
+  --color-ink-soft: #4a3f35;
+  --color-muted: #837868;
+  --color-rule: #c8b99e;
+  --color-umber: #6b3f1d;
+  --color-umber-soft: #9a6b3f;
+  --color-amber: #b08344;
 
   --font-display: var(--font-cormorant), "EB Garamond", "Frank Ruhl Libre", Georgia, serif;
   --font-body: var(--font-inter), "Frank Ruhl Libre", system-ui, -apple-system, sans-serif;
@@ -34,17 +37,25 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* Paper-grain texture: a subtle SVG-noise background overlay.
+   The base color stays warm, the grain reads as paper, not as a screen. */
+body {
+  font-family: var(--font-body);
+  font-feature-settings: "ss01", "kern";
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0.108  0 0 0 0 0.086  0 0 0 0 0.071  0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>"),
+    radial-gradient(ellipse 1200px 800px at 80% -10%, rgba(176, 131, 68, 0.05), transparent 70%),
+    radial-gradient(ellipse 1000px 700px at 0% 100%, rgba(107, 63, 29, 0.03), transparent 70%);
+  background-attachment: fixed;
+  background-size: 240px 240px, auto, auto;
+}
+
 html[data-locale="he"] {
   --font-display: var(--font-frank), var(--font-cormorant), Georgia, serif;
 }
 
-body {
-  font-family: var(--font-body);
-  font-feature-settings: "ss01", "kern";
-}
-
 ::selection {
-  background: var(--color-ink);
+  background: var(--color-umber);
   color: var(--color-paper);
 }
 
@@ -68,37 +79,29 @@ button,
 @keyframes stagger-rise {
   from {
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY(10px);
+    filter: blur(2px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
 .stagger-item {
   opacity: 0;
-  animation: stagger-rise 480ms var(--ease-out) forwards;
+  animation: stagger-rise 520ms var(--ease-out) forwards;
 }
 
 @keyframes lightbox-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes lightbox-content-in {
-  from {
-    opacity: 0;
-    transform: scale(0.96);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .lightbox-overlay {
@@ -109,14 +112,27 @@ button,
   animation: lightbox-content-in 240ms var(--ease-out) forwards;
 }
 
+/* Image cards — subtle warm shadow + on-hover lift */
+.work-card {
+  position: relative;
+}
+
 .work-card-image {
   transition: transform 600ms var(--ease-out), filter 400ms var(--ease-out);
   will-change: transform;
 }
 
+.work-card .work-card-image-wrap {
+  box-shadow: 0 1px 0 rgba(28, 22, 18, 0.06), 0 12px 30px -12px rgba(28, 22, 18, 0.12);
+  transition: box-shadow 360ms var(--ease-out);
+}
+
 @media (hover: hover) and (pointer: fine) {
   .work-card:hover .work-card-image {
     transform: scale(1.02);
+  }
+  .work-card:hover .work-card-image-wrap {
+    box-shadow: 0 1px 0 rgba(28, 22, 18, 0.1), 0 18px 40px -10px rgba(28, 22, 18, 0.18);
   }
 }
 
@@ -135,44 +151,39 @@ button,
   .stagger-item {
     opacity: 1;
     transform: none;
+    filter: none;
   }
 }
 
-/* Hebrew runs in RTL — these utilities flip side-aware spacing */
 [dir="rtl"] .flip-rtl {
   transform: scaleX(-1);
 }
 
-.text-balance {
-  text-wrap: balance;
-}
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
 
-.text-pretty {
-  text-wrap: pretty;
-}
-
-/* Carousel slide track */
 .carousel-track {
   transition: transform 360ms var(--ease-in-out);
 }
 
-[dir="rtl"] .carousel-track {
-  /* Slides translate the same way visually whether LTR or RTL */
-}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Hide scrollbar on tag row */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+.zoomed { cursor: zoom-out; }
+.unzoomed { cursor: zoom-in; }
 
-/* Lightbox image zoomed */
-.zoomed {
-  cursor: zoom-out;
+/* Decorative ornament — a thin double rule reminiscent of old type pages */
+.rule-ornament {
+  position: relative;
+  height: 4px;
 }
-.unzoomed {
-  cursor: zoom-in;
+.rule-ornament::before,
+.rule-ornament::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  height: 1px;
+  background: var(--color-rule);
 }
+.rule-ornament::before { top: 0; }
+.rule-ornament::after { bottom: 0; opacity: 0.45; }

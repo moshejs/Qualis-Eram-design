@@ -1,10 +1,12 @@
 {
   "studio": {
-    "name": "Reno",
-    "atelier": {
-      "en": "Qualis Eram",
-      "he": "Qualis Eram",
-      "la": "Qualis Eram"
+    "name": "Qualis Eram Design",
+    "shortName": "Qualis Eram Design",
+    "established": 2012,
+    "motto": {
+      "en": "Ars Longa, Vita Brevis",
+      "he": "אמנות ארוכה, חיים קצרים",
+      "la": "Ars Longa, Vita Brevis"
     },
     "tagline": {
       "en": "Furniture, made one at a time.",
@@ -12,9 +14,9 @@
       "la": "Opera, singula in tempore."
     },
     "about": {
-      "en": "Reno builds furniture in a small workshop, one piece at a time. Walnut, cherry, ash, sometimes salvaged. Most begin as a sketch on the workshop wall — a shape that won't leave him alone. Others are made for a particular room, for a person who came by with measurements and a question. Both kinds are welcome here.",
-      "he": "רנו מייצר רהיטים בסדנה קטנה, חלק אחד בכל פעם. אגוז, דובדבן, אפר, לפעמים עץ ממוחזר. רובם מתחילים כסקיצה על קיר הסדנה — צורה שלא נותנת לו מנוח. אחרים נבנים לחדר מסוים, עבור אדם שהגיע עם מידות ושאלה. שני הסוגים מתקבלים כאן בברכה.",
-      "la": "Reno opera fabricat in officina parva, singula in tempore. Iuglans, cerasum, fraxinus, interdum lignum recuperatum. Pleraque ab adumbratione in pariete oriuntur — figura quae quietem non dat. Alia loco certo fiunt, ad mensuram, ad rogationem. Utrumque genus hic gratum est."
+      "en": "Built in a small workshop, one piece at a time. Walnut, cherry, ash, sometimes salvage. Most begin as a sketch on the workshop wall — a shape that won't leave the bench alone. Others are made for a particular room, for someone who came by with measurements and a question. Both kinds are welcome here.",
+      "he": "רהיטים נבנים בסדנה קטנה, חלק אחד בכל פעם. אגוז, דובדבן, אפר, לפעמים עץ ממוחזר. רובם מתחילים כסקיצה על קיר הסדנה — צורה שלא עוזבת את הספסל. אחרים נבנים לחדר מסוים, עבור אדם שהגיע עם מידות ושאלה. שני הסוגים מתקבלים כאן בברכה.",
+      "la": "In officina parva opera fabricantur, singula in tempore. Iuglans, cerasum, fraxinus, interdum lignum recuperatum. Pleraque ab adumbratione in pariete oriuntur — figura quae bancum non sinit quiescere. Alia loco certo fiunt, ad mensuram, ad rogationem. Utrumque genus hic gratum est."
     },
     "labels": {
       "studio": {

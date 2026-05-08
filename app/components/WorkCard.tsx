@@ -26,7 +26,7 @@ export default function WorkCard({ work, index, span = 'normal', onOpen }: Props
       className="work-card stagger-item group block w-full text-start"
       style={{ animationDelay: `${delay}ms` }}
     >
-      <div className={`relative ${aspect} overflow-hidden bg-[color:var(--color-paper-soft)]`}>
+      <div className={`work-card-image-wrap relative ${aspect} overflow-hidden bg-[color:var(--color-paper-soft)]`}>
         <Image
           src={primaryImageUrl(work)}
           alt={work.name[locale]}

@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { Cormorant_Garamond, Inter, Frank_Ruhl_Libre } from 'next/font/google';
 import { I18nProvider } from '@/lib/i18n';
+import { studio } from '@/lib/works';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import StructuredData from './components/StructuredData';
 import './globals.css';
 
 const cormorant = Cormorant_Garamond({
@@ -25,9 +27,80 @@ const frank = Frank_Ruhl_Libre({
   display: 'swap',
 });
 
+const SITE_URL = 'https://qualiseramdesign.com';
+const SITE_DESCRIPTION =
+  'Bespoke furniture in walnut, cherry, ash and salvage. Studio and commissioned pieces — hand-built, one at a time. Established 2012.';
+
 export const metadata: Metadata = {
-  title: 'Reno · Qualis Eram',
-  description: 'Furniture, made one at a time.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${studio.name} · Bespoke Furniture`,
+    template: `%s · ${studio.name}`,
+  },
+  description: SITE_DESCRIPTION,
+  keywords: [
+    'bespoke furniture',
+    'custom woodworking',
+    'fine furniture maker',
+    'handmade cabinetry',
+    'commissioned furniture',
+    'live-edge dining table',
+    'walnut chest',
+    'cherry wardrobe',
+    'parquet table',
+    'lacewood built-in',
+    'Edward Reno',
+    'Qualis Eram Design',
+    'ars longa vita brevis',
+  ],
+  authors: [{ name: 'Edward Reno' }],
+  creator: 'Edward Reno',
+  publisher: studio.name,
+  applicationName: studio.name,
+  alternates: {
+    canonical: '/',
+    languages: {
+      en: '/',
+      he: '/',
+      la: '/',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    siteName: studio.name,
+    title: `${studio.name} · Bespoke Furniture`,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    locale: 'en_US',
+    images: [
+      {
+        url: '/og.jpg',
+        width: 1200,
+        height: 630,
+        alt: `${studio.name} — bespoke furniture`,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${studio.name} · Bespoke Furniture`,
+    description: SITE_DESCRIPTION,
+    images: ['/og.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
 };
 
 const localeBootstrap = `
@@ -53,6 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
         </I18nProvider>
+        <StructuredData />
       </body>
     </html>
   );
