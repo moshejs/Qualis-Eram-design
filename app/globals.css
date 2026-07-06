@@ -163,7 +163,7 @@ button,
 .text-pretty { text-wrap: pretty; }
 
 .carousel-track {
-  transition: transform 360ms var(--ease-in-out);
+  transition: transform 450ms var(--ease-drawer);
 }
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
